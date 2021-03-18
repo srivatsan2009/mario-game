@@ -1,0 +1,53 @@
+.heading {
+width:100%;
+text-align:left;
+}
+
+.heading h2 {
+display: inline;
+}
+
+.heading button {
+font-size: large;
+border: dashed red;
+float: right;
+animation: example infinite 5s;
+}
+@keyframes example{
+from {background-color:red}
+to {background-color:goldenrod}
+}
+
+.img1 {
+width:100%;
+}
+
+#button_game {
+width:50%;
+font-size:25px;
+}
+
+#status {
+font-size: 25px;
+}
+
+h4 {
+margin:0;
+background-color: yellow;
+line-height: 2;
+font-family: cursive;
+/*position: fixed;
+bottom: 0;
+width: 100%;*/
+}
+
+.modal-dialog {
+width:80%;
+}
+
+video{
+background: url("game_console.png");
+background-size: cover;
+background-position: center;
+padding:25px;
+}
